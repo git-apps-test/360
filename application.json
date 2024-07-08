@@ -1,77 +1,83 @@
 {
-  "pages": [
-    {
-      "id": "Dashboard",
-      "isDefault": true
-    },
-    {
-      "id": "Success",
-      "isDefault": false
-    },
-    {
-      "id": "Sales",
-      "isDefault": false
-    },
-    {
-      "id": "Product",
-      "isDefault": false
-    },
-    {
-      "id": "Support",
-      "isDefault": false
-    },
-    {
-      "id": "Revenue",
-      "isDefault": false
-    },
-    {
-      "id": "Stability",
-      "isDefault": false
-    }
-  ],
-  "viewMode": false,
   "appIsExample": false,
-  "unreadCommentThreads": 0,
-  "unpublishedApplicationDetail": {
-    "hiddenJSLibs": [],
+  "appLayout": {
+    "type": "DESKTOP"
+  },
+  "applicationDetail": {
     "appPositioning": {
       "type": "FIXED"
     },
     "navigationSetting": {
-      "showNavbar": true,
-      "orientation": "top",
-      "navStyle": "inline",
-      "position": "static",
-      "itemStyle": "text",
       "colorStyle": "theme",
+      "itemStyle": "text",
       "logoAssetId": "",
       "logoConfiguration": "logoAndApplicationTitle",
+      "navStyle": "inline",
+      "orientation": "top",
+      "position": "static",
+      "showNavbar": true,
       "showSignIn": true
     }
   },
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
   "color": "#D6D1F2",
+  "evaluationVersion": 2,
   "icon": "basketball",
+  "pages": [
+    {
+      "baseId": "Dashboard",
+      "id": "Dashboard",
+      "isDefault": true
+    },
+    {
+      "baseId": "Success",
+      "id": "Success",
+      "isDefault": false
+    },
+    {
+      "baseId": "Sales",
+      "id": "Sales",
+      "isDefault": false
+    },
+    {
+      "baseId": "Product",
+      "id": "Product",
+      "isDefault": false
+    },
+    {
+      "baseId": "Support",
+      "id": "Support",
+      "isDefault": false
+    },
+    {
+      "baseId": "Revenue",
+      "id": "Revenue",
+      "isDefault": false
+    },
+    {
+      "baseId": "Stability",
+      "id": "Stability",
+      "isDefault": false
+    }
+  ],
   "unpublishedAppLayout": {
     "type": "DESKTOP"
   },
-  "publishedAppLayout": {
-    "type": "DESKTOP"
-  },
-  "unpublishedCustomJSLibs": [
-    {
-      "uidString": "graphql_https://cdn.jsdelivr.net/npm/graphql.js@0.6.8/graphql.min.js"
+  "unpublishedApplicationDetail": {
+    "appPositioning": {
+      "type": "FIXED"
     },
-    {
-      "uidString": "emailAddresses_https://cdn.jsdelivr.net/npm/email-addresses@5.0.0/lib/email-addresses.min.js"
-    },
-    {
-      "uidString": "tldjs_https://cdn.jsdelivr.net/npm/tldjs@2.3.1/tld.min.js"
+    "navigationSetting": {
+      "colorStyle": "theme",
+      "itemStyle": "text",
+      "logoAssetId": "",
+      "logoConfiguration": "logoAndApplicationTitle",
+      "navStyle": "inline",
+      "orientation": "top",
+      "position": "static",
+      "showNavbar": true,
+      "showSignIn": true
     }
-  ],
-  "publishedCustomJSLibs": [],
-  "evaluationVersion": 2,
-  "applicationVersion": 2,
-  "collapseInvisibleWidgets": true,
-  "isManualUpdate": false,
-  "deleted": false
+  }
 }
